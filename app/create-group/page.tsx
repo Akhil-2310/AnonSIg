@@ -5,7 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
-import { createGroup } from "../../lib/groups"
+import { createGroup } from "@/lib/groups"
 
 export default function CreateGroupPage() {
   const [name, setName] = useState("")

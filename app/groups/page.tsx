@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import GroupCard from "../../components/group-card"
-import { getGroups, getJoinedGroups, joinGroup, type Group } from "../../lib/groups"
+import GroupCard from "@/components/group-card"
+import { getGroups, getJoinedGroups, joinGroup, type Group } from "@/lib/groups"
 
 export default function AllGroupsPage() {
   const [groups, setGroups] = useState<Group[]>([])

@@ -13,7 +13,7 @@ import {
   getJoinedGroups,
   type Group,
   type Proposal,
-} from "../../../lib/groups"
+} from "@/lib/groups"
 
 export default function GroupDetailPage() {
   const params = useParams()
